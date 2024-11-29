@@ -18,3 +18,7 @@ set xrange [-1:25]
 
 p 'lluviaoctubre.txt' using 2 w boxes
 p '<sort -V -k2 lluviaoctubre.txt' using 2 w boxes
+set term postscript enhanced color eps "DejaVuSans" 19
+set output "Lluvia-EA-Octubre2000-2024.ps"
+rep
+set term x11
