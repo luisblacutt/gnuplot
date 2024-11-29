@@ -17,7 +17,7 @@ set xtics ("2022" 0.0, "2011" 1.0, "2012" 2.0,"2020" 3.0,"2004" 4.0,"2005" 5.0,"
 set xrange [-1:25]
 
 p 'lluviaoctubre.txt' using 2 w boxes
-p '<sort -V -k2 lluviaoctubre.txt' using 2 w boxes
+p '<sort -V -k2 lluviaEAoctubre.txt' using 2 w boxes title "Octubre"
 set term postscript enhanced color eps "DejaVuSans" 19
 set output "Lluvia-EA-Octubre2000-2024.ps"
 rep
